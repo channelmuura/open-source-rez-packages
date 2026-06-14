@@ -1,0 +1,2 @@
+#!/bin/bash
+rez-release -- -DBUILD_SHARED_LIBRARY=ON -DCMAKE_POLICY_VERSION_MINIMUM=3.5
