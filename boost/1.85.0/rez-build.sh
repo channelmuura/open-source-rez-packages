@@ -1,4 +1,6 @@
 #! /bin/bash
 
-cd boost_1_85_0
+source version.sh
+
+cd boost_${VERSION_UNDERSCORE}
 rez-build -ic

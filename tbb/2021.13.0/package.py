@@ -4,7 +4,7 @@ name = 'tbb'
 
 version = '2021.13.0'
 
-variants = [['platform-linux', 'arch-x86_64']]
+variants = [["arch-x86_64"]]
 
 build_command = """
 cp -r {root}/oneapi-tbb-2021.13.0/* {install_path}

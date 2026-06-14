@@ -1,6 +1,8 @@
 #! /bin/bash
 
-wget https://sourceforge.net/projects/boost/files/boost/1.85.0/boost_1_85_0.zip
-unzip boost_1_85_0.zip
+source version.sh
 
-cp package.py boost_1_85_0/
+wget https://sourceforge.net/projects/boost/files/boost/${VERSION}/boost_${VERSION_UNDERSCORE}.zip
+unzip boost_${VERSION_UNDERSCORE}.zip
+
+cp package.py boost_${VERSION_UNDERSCORE}/
