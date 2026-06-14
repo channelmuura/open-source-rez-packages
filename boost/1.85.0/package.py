@@ -4,7 +4,7 @@ name = 'boost'
 
 version = '1.85.0'
 
-build_requires = ['gcc']
+private_build_requires = ['gcc']
 
 variants = [['platform-linux', 'arch-x86_64', 'os-rocky-9.8', 'python-3.11']]
 
